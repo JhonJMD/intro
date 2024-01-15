@@ -1,12 +1,28 @@
+/*Estilos de forma global*/
 *{
     color: brown;
 }
 h2{
     color: chartreuse;
 }
+/*Estilos a clases*/
 .titulo{
     color : blue;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-align: center;
+}
+.subtitulo{
+    color: blueviolet;
+}
+/*Estilos a bloques grandes de codigo*/
+div{
+    background-color: rgb(183, 194, 90);
+    width: 300px;/*Ancho de algo*/
+    padding: 10px;/*Margen interna*/
+    text-align: justify;
+    margin: 0 auto;
+    border: 2px solid 5px  rgb(183, 194, 90);
+    border-radius: 5px;
+    border-color: black;    box-shadow: 6px 4px 9px 0px #c2b94e;
 }
